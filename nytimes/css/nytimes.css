@@ -1,0 +1,40 @@
+
+.logo {
+  margin: 0px 200px 0px 200px;
+}
+  .ski {
+    width: 100%;
+
+  }
+
+  .headlines,
+  .morestuff {
+    display: flex;
+  }
+
+  article {
+    flex: 1;
+    margin: 0px 12px 0px 1px;
+    padding: 0px 2px 0px 0px;
+    text-align: left;
+  }
+
+p {
+  text-align: justify;
+  padding: 0px 2px;
+  margin-top: 0px;
+}
+
+h2 {
+  margin: 10px 20px 0px 10px;
+  padding: 0px 0px;
+}
+
+.morestuff {
+  margin: 0px 5px;
+}
+
+h3 {
+  margin: 0px 5px 0px 0px;
+  padding: 0px 0px;
+}
