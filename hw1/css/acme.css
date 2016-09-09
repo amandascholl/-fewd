@@ -1,60 +1,60 @@
 
-h1 {
+/* Basic Tags */
+header {
   background-color: #c4c4c4;
   background-size: cover;
   padding: 0 20px;
-  font-size: 12;
+  font-size: 12px;
   border-bottom: 1px solid #a8a8a8;
   border-top: 1px solid #a8a8a8;
   margin: -8px;
 }
 
-a {
+  body {
+    background-image: url("fewd/hw1/images/background.png");
+    font-family: 'Lucida Grande';
+  }
+
+  main {
+    display: block;
+    max-width: 800px;
+    margin: 50px auto 100px auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 5px 1px #a8a8a8;
+    }
+
+  footer {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(172, 172, 172, 0.80);
+    border-top: 2px solid rgba(172, 172, 172, 0.50);
+  }
+
+/* Classes */
+.products {
   float: right;
   color: #ffffff;
-  font-size: 14;
+  font-size: 14px;
   text-shadow: 2px 2px #a8a8a8;
-  margin: 28 10;
+  margin: 28px 10px;
   text-decoration: none;
 }
 
-button {
+.signup {
   float: right;
   padding: 5px 5px;
-  width: 78;
-  height: 38;
-  margin: 17 auto;
+  width: 78px;
+  height: 38px;
+  margin: 17px auto;
   background-color: #2a4cb2;
   color: #ffffff;
   border-radius: 10%;
-  font-family: lucida grande;
-  font-size: 14;
-}
-
-body {
-  background-image: url("images/background.png");
-  font-family: lucida grande;
-
-}
-.welcome {
-  display: block;
-  max-width: 800px;
-  margin: 50px auto 100px auto;
-  background-color: #ffffff;
-  border-radius: 5px;
-  padding: 20px 20px;
-  box-shadow: 0px 0px 5px 1px #a8a8a8;
-  }
-
-
-
-footer {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  text-align: center;
-  color: rgba(172, 172, 172, 0.80);
-  border-top: 2px solid rgba(172, 172, 172, 0.50);
-
+  border-color: #2A4CB2;
+  font-family: 'Lucida Grande';
+  font-size: 14px;
 }
