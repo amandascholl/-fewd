@@ -14,7 +14,6 @@ article {
 }
 
 article label {display: inline-block;}
-
 /* CLASSES */
 .sign-up-section {
   height: 400px;
@@ -56,4 +55,7 @@ article label {display: inline-block;}
   box-shadow: none;
   margin-left: -10px;
   border: 2px solid lightgray;
+  font-size: 14px;
+  font-family: 'Lucida Grande';
+  padding-left: 5px;
 }
