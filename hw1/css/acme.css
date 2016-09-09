@@ -11,7 +11,7 @@ header {
 }
 
   body {
-    background-image: url("fewd/hw1/images/background.png");
+    background-image: url("../hw1/images/background.png");
     font-family: 'Lucida Grande';
   }
 
@@ -26,7 +26,7 @@ header {
     }
 
   footer {
-    max-width: 850px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
