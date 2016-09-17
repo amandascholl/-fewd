@@ -13,7 +13,7 @@ $(document).ready(function(){
       $('.likecount-two').val(counter);
     });
 });
-
+ 
 $(document).ready(function(){
     $('.like-three').click( function() {
       var counter = $('.likecount-three').val();
@@ -26,7 +26,7 @@ function updateCountdown() {
   var remaining = 140 - jQuery('.happening').val().length;
   jQuery('.countdown').text(remaining);
 }
- 
+
 jQuery(document).ready(function($) {
     updateCountdown();
     $('.happening').change(updateCountdown);
