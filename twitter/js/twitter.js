@@ -13,7 +13,7 @@ $(document).ready(function(){
       $('.likecount-two').val(counter);
     });
 });
- 
+
 $(document).ready(function(){
     $('.like-three').click( function() {
       var counter = $('.likecount-three').val();

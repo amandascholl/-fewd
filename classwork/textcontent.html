@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Text Content</title>
+  </head>
+  <body>
+
+    <p>
+      Hello World!
+    </p>
+
+<ul>
+  <li>
+    Milk
+  </li>
+</ul>
+
+    <script type="text/javascript">
+      var p = document.querySelector("p");
+      p.textContent = "Goodbye";
+      var b = document.querySelector("ul");
+      var a = document.createElement("li");
+      var c = b.appendChild(a);
+      c.textContent = "Cookies";
+
+      var url = "https://cldup.com/_d6DG7yyR8.png";
+      var img = document.createElement("img");
+      img.setAttribute("src", url);
+      var d = document.querySelector("body");
+      var e = d.appendChild(img);
+
+
+
+    </script>
+
+  </body>
+</html>
