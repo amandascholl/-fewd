@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Array Animals</title>
+  </head>
+<h1>
+  Array Practice
+</h1>
+
+<table>
+  <tr>
+    <th>Index</th>
+    <th>Value</th>
+  </tr>
+  <tr>
+    <td><code>animals[0]</code></td>
+    <td class="a-0"></td>
+  </tr>
+  <tr>
+    <td><code>animals[1]</code></td>
+    <td class="a-1"></td>
+  </tr>
+  <tr>
+    <td><code>animals[2]</code></td>
+    <td class="a-2"></td>
+  </tr>
+  <tr>
+    <td><code>animals[3]</code></td>
+    <td class="a-3"></td>
+  </tr>
+  <tr>
+    <td><code>animals[4]</code></td>
+    <td class="a-4"></td>
+  </tr>
+</table>
+
+<button>Do it!</button>
+
+<script>
+var animals = [
+  "cow",
+  "dog",
+  "horse",
+  "moose",
+  "rooster"
+];
+
+var a = document.querySelector(".a-0");
+var b = document.querySelector(".a-1");
+var c = document.querySelector(".a-2");
+var d = document.querySelector(".a-3");
+var e = document.querySelector(".a-4");
+var button = document.querySelector("button");
+
+button.addEventListener("click", doit);
+
+
+function doit(event) {
+  event.preventDefault();
+  a.textContent = animals[0];
+  b.textContent = animals[1];
+  c.textContent = animals[2];
+  d.textContent = animals[3];
+  e.textContent = animals[4];
+}
+
+
+
+</script>
+
+<style>
+body { font-family: sans-serif; font-size: 20px; }
+th { text-align: left; }
+th, td { border: 1px solid #ccc; padding: 1em; }
+</style>
+
+</html>

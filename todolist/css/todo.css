@@ -1,0 +1,58 @@
+body {
+  font-family: 'Georgia';
+  background-color: rgb(233, 233, 233);
+}
+main {
+  display: block;
+  max-width: 620px;
+  margin: 50px auto 100px auto;
+  height: 500px;
+  position: relative;
+}
+
+span {
+ font-size: 20px;
+ margin-left: 10px;
+}
+
+input.checkbox:checked + span {
+  text-decoration: line-through;
+  color: rgb(170, 170, 170);
+}
+
+.count {font-size: 30px;}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+}
+.checkboxdiv {margin: 20px 0px;}
+
+.todo-count {
+  position: absolute;
+  right: 0;
+  top: 0;
+  float: right;
+  font-size: 30px;
+}
+.textbox {
+  width: 490px;
+  height: 43px;
+  border: 2px solid rgb(183, 196, 204);
+  border-radius: 7px;
+  font-size: 18px;
+  padding-left: 7px;
+}
+.create {
+  width: 107px;
+  height: 47px;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 7px;
+  background-color: rgb(65, 147, 207);
+  border-color: rgb(65, 147, 207);
+  margin-left: 7px;
+}
+
+.makelist {margin-top: 30px;}
