@@ -2,3 +2,6 @@ Ajax:
 - making http requests (go to web, get stuff, come back)
 ]avascript can't multitask, which means ONE thing at a time ALWAYS.
 Asynchronous - not going at the same rate and exactly together with something else, in particular.
+  Two things at the same time.
+CallBacks are the key to making things work.
+CallBack: A function 

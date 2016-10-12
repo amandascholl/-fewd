@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AJAX Example</title>
+    <script src="jquery-3.1.1.js"></script>
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<form>
+  <input type="search" id="query" placeholder="GitHub username">
+  <input type="submit" value="Lookup">
+</form>
+
+<table>
+  <tr>
+    <th>Name:</th>
+    <td id="user-name"></td>
+  </tr>
+  <tr>
+    <th>Bio:</th>
+    <td id="user-bio"></td>
+  </tr>
+  <tr>
+    <th>Picture:</th>
+    <td id="user-picture"></td>
+  </tr>
+</table>
+
+<script>
+var search = document.querySelector("form");
+search.addEventListener("submit", results);
+
+
+
+function results(event) {
+  event.preventDefault();
+  var input = document.querySelector("#query").value;
+  $.get("https://gist.githubusercontent.com/avand/a06a1990a51eba2045daeb42717ecee7/raw/dc21e218dab32710d34c17328fc9a47adae4b93e/avand.json", handleResults)
+}
+
+function handleResults(data) {
+  data = JSON.parse(data);
+//jquery
+  document.querySelector("#user-name").textContent = results.name;
+  var img = $("<img>")
+  img.attr("src", results.image);
+  $("#user-picture").append(img);
+
+//jquery 1 line
+  $("<img>")attr.("src", results.image).appendTo("user-picture");
+
+  //js
+  var img = document.createElement("img");
+  img.setAttribute("src", results.image);
+  document.querySelector("#user-picture").appendChild(img);
+}
+
+
+</script>
+  </body>
+</html>

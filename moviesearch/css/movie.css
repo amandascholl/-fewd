@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(64, 64, 64);
+  color: #ffffff;
+  font-family: 'Arial';
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+main {
+  margin-left: 20px;
+  margin-top: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+img {
+  padding: 0 15px 15px 0;
+}
+
+td {
+  word-wrap: break-word;
+  width: 175px;
+  margin-top: 8px;
+}
+.movies {
+  margin-top: 5px;
+  padding: 0 25px;
+  width: 600px;
+  float: left;
+}
+
+.description {
+  position: relative;
+  display: inline;
+
+}
