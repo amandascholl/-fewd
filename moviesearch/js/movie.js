@@ -49,6 +49,3 @@ function getLion(event) {
 function getTitanic(event) {
   $.get("http://www.omdbapi.com/?i=tt0120338", displayResults);
 }
-
-
-//(assign to text content of the page.. give each cell a different id)
