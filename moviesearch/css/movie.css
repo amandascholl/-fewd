@@ -30,6 +30,12 @@ td {
   width: 175px;
   margin-top: 8px;
 }
+
+.rowname {
+  margin-top: 8px;
+  width: 100px;
+}
+
 .movies {
   margin-top: 5px;
   padding: 0 25px;

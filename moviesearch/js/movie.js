@@ -27,25 +27,25 @@ k.textContent = results.Plot;
 }
 
 function getFifty(event) {
-  $.get("http://www.omdbapi.com/?i=tt2322441", displayResults);
+  $.get("https://www.omdbapi.com/?i=tt2322441", displayResults);
 }
 
 function getSingle(event) {
-  $.get("http://www.omdbapi.com/?i=tt1292566", displayResults);
+  $.get("https://www.omdbapi.com/?i=tt1292566", displayResults);
 }
 
 function getDumb(event) {
-  $.get("http://www.omdbapi.com/?i=tt0109686", displayResults);
+  $.get("https://www.omdbapi.com/?i=tt0109686", displayResults);
 }
 
 function getJurassic(event) {
-  $.get("http://www.omdbapi.com/?i=tt0107290", displayResults);
+  $.get("https://www.omdbapi.com/?i=tt0107290", displayResults);
 }
 
 function getLion(event) {
-  $.get("http://www.omdbapi.com/?i=tt0110357", displayResults);
+  $.get("https://www.omdbapi.com/?i=tt0110357", displayResults);
 }
 
 function getTitanic(event) {
-  $.get("http://www.omdbapi.com/?i=tt0120338", displayResults);
+  $.get("https://www.omdbapi.com/?i=tt0120338", displayResults);
 }
