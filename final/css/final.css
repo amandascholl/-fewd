@@ -1,0 +1,40 @@
+body {
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/sunflower.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+width: 100%;
+height: auto;
+}
+
+h1 {
+font-family: 'Grand Hotel' , cursive;
+font-size: 60px;
+color: #ffffff;
+}
+
+main {
+  display: block;
+  max-width: 400px;
+  margin: 200px 200px 200px 350px;
+}
+
+.enter {
+font-family: 'Grand Hotel' , cursive;
+font-size: 24px;
+height: 30px;
+width: 75px;
+border-radius: 5px;
+text-align: center;
+border: none;
+}
+
+.secretcode {
+font-family: 'Grand Hotel' , cursive;
+width: 175px;
+height: 40px;
+font-size: 30px;
+border-radius: 7px;
+border: none;
+padding-left: 10px;
+color: grey;
+}
