@@ -1,21 +1,24 @@
 body {
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/sunflower.jpg");
+backround: fixed;
 background-repeat: no-repeat;
 background-size: 100%;
-width: 100%;
-height: auto;
+background-attachment: fixed;
+
 }
 
 h1 {
 font-family: 'Grand Hotel' , cursive;
 font-size: 60px;
 color: #ffffff;
+text-align: center;
+padding-top: 100px;
 }
 
 main {
   display: block;
-  max-width: 400px;
-  margin: 200px 200px 200px 350px;
+  max-width: 80%;
+  margin: 100px auto 100px auto;
 }
 
 .enter {
@@ -37,4 +40,10 @@ border-radius: 7px;
 border: none;
 padding-left: 10px;
 color: grey;
+}
+
+.row {
+  text-align: center;
+  margin-top: -50px;
+  padding-left: 50px;
 }
