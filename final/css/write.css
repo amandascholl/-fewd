@@ -1,0 +1,68 @@
+body {
+ background-color: rgb(106, 106, 106);
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/sunflower.jpg");
+  background-size: cover;
+  padding: 0 20px;
+  font-size: 12px;
+  border-bottom: 1px solid #a8a8a8;
+  border-top: 1px solid #a8a8a8;
+  margin: -8px;
+  font-family: 'Grand Hotel' , cursive;
+  font-size: 24px;
+  color: #f2efef;
+}
+
+
+main {
+  background-color: #e4e2e2;
+  display: block;
+  max-width: 800px;
+  margin: 50px auto 100px auto;
+  border-radius: 5px;
+  padding: 20px 20px;
+  box-shadow: 0px 0px 5px 1px #a8a8a8;
+  }
+
+.newpost {
+  padding-left: 125px;
+}
+
+.subject,
+.date    {
+  width: 80%;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px 1px #a8a8a8;
+  font-family: 'Grand Hotel';
+  font-size: 22px;
+}
+
+.date {
+  margin-top: 7px;
+}
+
+.entry {
+  width: 80%;
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 7px;
+  box-shadow: 0px 0px 5px 1px #a8a8a8;
+  border: none;
+  font-family: 'Grand Hotel';
+  font-size: 22px;
+
+}
+
+.submit {
+  width: 10%;
+  box-shadow: 0px 0px 5px 1px #a8a8a8;
+  border: none;
+  border-radius: 5px;
+  margin-top: 7px;
+  font-family: 'Grand Hotel';
+  font-size: 18px;
+}

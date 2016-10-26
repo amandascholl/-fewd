@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/write.css">
+    <link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
+    <title>Vent</title>
+  </head>
+  <body>
+    <header>
+      <h1>Come enter into this mind of plot-thickened hopes...</h1>
+    </header>
+    <main>
+      <div class="newpost">
+        <div>
+          <input type="text" name="subject" id="subject-box" placeholder="Subject (optional)" class="subject"></input>
+        </div>
+        <div>
+          <input type="text" name="date" id="date-box" placeholder="Date it" required class="date"></input>
+        </div>
+        <div>
+          <textarea name="entry" id="entry-box" placeholder="Word vomit goes here.." required class="entry"></textarea>
+        </div>
+        <input type="submit" value="Exhale" id="submit-button" class="submit">
+      </div>
+    </main>
+    <script>
+    var main = document.querySelector("main");
+    var submit = document.querySelector(".submit");
+    var subject = document.querySelector("#subject-box").value;
+    var date = document.querySelector("#date-box").value;
+    var entry = document.querySelector("#entry-box").value;
+
+/*
+    var a = document.createElement("div");
+    a.setAttribute("class", "wholepost");
+    main.appendChild(a);
+
+    var b = document.createElement("div");
+    b.setAttribute("class", "subjectline");
+    a.appendChild(b);
+
+    var c = document.createElement("div");
+    c.setAttribute("class", "dateline");
+    a.appendChild(c);
+
+    var d = document.createElement("div");
+    d.setAttribute("class", "bodysection");
+*/
+
+
+    submit.addEventListener("click", addpost);
+
+    function addpost(event) {
+      event.preventDefault();
+      console.log(subject);
+      console.log(date);
+      console.log(entry);
+    }
+    </script>
+  </body>
+</html>
